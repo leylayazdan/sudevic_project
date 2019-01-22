@@ -96,6 +96,7 @@ div, body {
 	line-height: 8px;
 	display: inline-block;
 	vertical-align: middle;
+	text-decoration: none;
 }
 
 @media screen and (min-height:700px) {
