@@ -1,35 +1,43 @@
-body {
+html, body {
 	height: 100%;
-	margin: 0;
 }
 
-.content {
-	background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) ), url("../images/background_image.JPG");
+body {
+  	background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) ), url("../images/background_image.JPG");
 	background-color: #4a4a4a;
-	height: 100%;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	-ms-background-size: cover;
-    -o-background-size: cover;
+  	-webkit-background-size: cover;
     -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    -o-background-size: cover;
+  	background-attachment: fixed;
+}
+
+div, body {
+	margin: 0;
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
   	color: #FFFFFF;
-  	position: relative;
+}
+
+.information_container {
+	height: 100%;
+	width: 100%;
+}
+
+.information {
+  width: 100%; 
+  display: block;
+  position: absolute;
+  left: 620pt;
 }
 
 #logo {
 	position: absolute;
-	left: 620pt;
-	right: 185pt;
 	top: 80pt;
-	opacity: 100%;
 }
 
 #subtext {
 	position: absolute;
-	left: 620pt;
 	top: 200pt;
 }
 
@@ -52,13 +60,12 @@ body {
 	line-height: 20px;
 }
 
-#information {
+#contact {
 	position: absolute;
-	left: 620pt;
 	top: 340pt;
 }
 
-.info_section {
+.info-section {
 	line-height: 100%;
 	padding-bottom: 12pt;
 }
@@ -69,7 +76,7 @@ body {
 	vertical-align: top;
 }
 
-.info_text {
+.info-text {
 	font-size: 21px;
 	color: #FFFFFF;
 	letter-spacing: 0.03px;
@@ -85,5 +92,23 @@ body {
 	bottom: 0%;
 	position: absolute;
 	display: block;
+}
+
+@media screen and (max-width:1200px) {
+  .information {
+  	left: 550pt;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .information {
+  	left: 500pt;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .information {
+  	left: 450pt;
+  }
 }
 

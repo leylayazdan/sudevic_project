@@ -1,29 +1,44 @@
 <html>
 
+<style>
+     @media screen and (max-width:1000px) {}
+     @media screen and (max-width:1100px) {}
+     @media screen and (max-width:1200px) {}
+</style>
+
 <head>
     <title>Chee Dusevic - Under Construction</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.3/mobile-detect.min.js"></script>
+    <script src="mobile-detect.js"></script>
+    <script>
+        var md = new MobileDetect(window.navigator.userAgent);
+        if (md.mobile() || md.tablet()) {
+            document.location.href = 'mobile-page.html';
+        }
+    </script>
 </head>
 
 <body>
-    <div class="content dark_overlay">
-        <div class="dark_overlay"></div>
-        <div id="logo"><img src="images/logo.png"></div>
-        <div id="subtext">
-        	<img class="line" src="images/line.png">
-        	<div class="title">Coming Soon</div>
-        	<div class="subtitle">Our website is under construction</div>
-        </div>
-        <div id="information">
-        	<div class="info_section"><img class="icon" src="images/address_icon.png"><span class='info_text'>Suite 500- Metrotown Place III<br>
-            <br>
-            5945 Kathleen Avenue (at Kingsway)<br>
-            <br>
-            Burnaby, BC V5H 4J7</span></div>
-            <br>
-        	<div class="info_section"><img class="icon" src="images/mail_icon.png"><span class="info_text">info@cheedusevic.com</span></div>
-        	<div class="info_section"><img class="icon" src="images/phone_icon.png"><span class="info_text">604 431 8368     |     604 431 8308</span></div>
+    <div class="information-container">
+        <div class="information">
+            <div id="logo"><img src="images/logo.png"></div>
+            <div id="subtext">
+            	<img class="line" src="images/line.png">
+            	<div class="title">Coming Soon</div>
+            	<div class="subtitle">Our website is under construction</div>
+            </div>
+            <div id="contact">
+            	<div class="info-section"><img class="icon" src="images/address_icon.png"><span class='info-text'>Suite 500- Metrotown Place III<br>
+                <br>
+                5945 Kathleen Avenue (at Kingsway)<br>
+                <br>
+                Burnaby, BC V5H 4J7</span></div>
+            	<div class="info-section"><img class="icon" src="images/mail_icon.png"><span class="info-text">info@cheedusevic.com</span></div>
+            	<div class="info-section"><img class="icon" src="images/phone_icon.png"><span class="info-text">604 431 8368     |     604 431 8308</span></div>
+            </div>
         </div>
     </div>
     <div id="footer"></div>
