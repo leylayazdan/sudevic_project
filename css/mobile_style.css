@@ -91,12 +91,12 @@ div, body {
 
 .info-text {
 	font-size: 12px;
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 	letter-spacing: 0.03px;
 	line-height: 8px;
 	display: inline-block;
 	vertical-align: middle;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 @media screen and (min-height:700px) {
