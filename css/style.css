@@ -3,9 +3,85 @@ body {
 	margin: 0;
 }
 
-#content {
-	background-image: url("../images/background_image.png");
+.content {
+	background-image: url("../images/background_image.JPG");
 	height: 100%;
 	background-repeat: no-repeat;
   	background-size: cover;
+  	-ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  	font-family: Arial, Helvetica, sans-serif;
+  	color: #FFFFFF;
+  	position: relative;
 }
+
+#logo {
+	position: absolute;
+	left: 620pt;
+	right: 185pt;
+	top: 80pt;
+	opacity: 100%;
+}
+
+#subtext {
+	position: absolute;
+	left: 620pt;
+	top: 200pt;
+}
+
+.line {
+	border: 1px solid #FFFFFF;
+}
+
+.title {
+	padding-top: 16px;
+	padding-bottom: 14px;
+	font-size: 43px;
+	letter-spacing: 0.06px;
+}
+
+.subtitle {
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0.02px;
+	line-height: 20px;
+}
+
+#information {
+	position: absolute;
+	left: 620pt;
+	top: 340pt;
+}
+
+.info_section {
+	line-height: 100%;
+	padding-bottom: 8px;
+}
+
+.icon {
+	padding-right: 14px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.info_text {
+	font-size: 21px;
+	color: #FFFFFF;
+	letter-spacing: 0.03px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#footer {
+	background-color: #003D66;
+	height: 100pt;
+	width: 100%;
+	bottom: 0%;
+	position: absolute;
+	display: block;
+}
+
