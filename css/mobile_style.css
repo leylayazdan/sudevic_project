@@ -1,3 +1,5 @@
+a[href^=tel] { color: inherit; text_decoration: none;}
+
 div, body {
 	margin: 0;
 	font-family: 'Arial', 'Helvetica', 'sans-serif';
