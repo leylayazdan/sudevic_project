@@ -98,3 +98,15 @@ div, body {
 	vertical-align: middle;
 }
 
+@media screen and (min-height:700px) {
+  .information-container {
+  	margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-height:895px) {
+  .information-container {
+  	margin-bottom: 95px;
+  }
+}
+
