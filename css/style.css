@@ -28,7 +28,7 @@ div, body {
   width: 100%; 
   display: block;
   position: absolute;
-  left: 620pt;
+  left: 610pt;
 }
 
 #logo {
@@ -38,7 +38,7 @@ div, body {
 
 #subtext {
 	position: absolute;
-	top: 200pt;
+	top: 180pt;
 }
 
 .line {
@@ -62,12 +62,12 @@ div, body {
 
 #contact {
 	position: absolute;
-	top: 340pt;
+	top: 290pt;
 }
 
 .info-section {
 	line-height: 100%;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 }
 
 .icon {
