@@ -1,5 +1,7 @@
 html, body {
 	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 body {
@@ -62,7 +64,7 @@ div, body {
 
 #contact {
 	position: absolute;
-	top: 290pt;
+	top: 310pt;
 }
 
 .info-section {
