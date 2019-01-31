@@ -16,7 +16,12 @@
     <script>
         var md = new MobileDetect(window.navigator.userAgent);
         if (md.mobile() || md.tablet()) {
-            document.location.href = 'mobile-page.html';
+            //document.location.href = 'mobile-page.html';
+            if (document.URL === "https://cheedusevic.ca") {
+                location.replace("https://cheedusevic.ca/mobile-page.html");
+            } else {
+                location.replace("https://cheedusevic.ca/mobile-page.html");
+            }
         }
     </script>
 </head>
